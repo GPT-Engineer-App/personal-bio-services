@@ -1,5 +1,5 @@
 import { Container, VStack, Text, Box, Heading, SimpleGrid, Image, Icon } from "@chakra-ui/react";
-import { FaUser, FaBroom, FaCameraRetro, FaBook } from "react-icons/fa";
+import { FaUser, FaBroom, FaCameraRetro, FaBook, FaCar } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -21,6 +21,7 @@ const Index = () => {
             <ServiceBox icon={FaBook} title="Tutoring" description="Personalized tutoring services for students in various subjects." />
             <ServiceBox icon={FaUser} title="General Assistance to Everyday Living" description="Professional assistance services for daily activities and needs." />
             <ServiceBox icon={FaUser} title="Web Design" description="Creative and responsive web design services to boost your online presence." />
+            <ServiceBox icon={FaCar} title="Shopping and Driving to Appts" description="Convenient shopping and transportation services to help you manage your appointments." />
           </SimpleGrid>
         </Box>
       </VStack>
