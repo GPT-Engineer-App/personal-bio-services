@@ -7,7 +7,7 @@ const Index = () => {
       <VStack spacing={8} align="center">
         <Box textAlign="center">
           <Heading as="h1" size="2xl" mb={2}>
-            John Doe
+            Melinda
           </Heading>
           <Text fontSize="xl">Developer | Designer | Photographer</Text>
           <Image borderRadius="full" boxSize="150px" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3MTUxNjcxODJ8MA&ixlib=rb-4.0.3&q=80&w=1080" alt="John Doe" mt={4} />
