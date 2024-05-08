@@ -1,5 +1,5 @@
 import { Container, VStack, Text, Box, Heading, SimpleGrid, Image, Icon } from "@chakra-ui/react";
-import { FaUser, FaBroom, FaCameraRetro } from "react-icons/fa";
+import { FaUser, FaBroom, FaCameraRetro, FaBook } from "react-icons/fa";
 
 const Index = () => {
   return (
@@ -18,7 +18,7 @@ const Index = () => {
           </Heading>
           <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
             <ServiceBox icon={FaBroom} title="Housekeeping" description="Professional housekeeping services for homes and offices." />
-            <ServiceBox icon={FaUser} title="Tutoring" description="Personalized tutoring services for students in various subjects." />
+            <ServiceBox icon={FaBook} title="Tutoring" description="Personalized tutoring services for students in various subjects." />
             <ServiceBox icon={FaUser} title="General Assistance to Everyday Living" description="Professional assistance services for daily activities and needs." />
             <ServiceBox icon={FaUser} title="Web Design" description="Creative and responsive web design services to boost your online presence." />
           </SimpleGrid>
