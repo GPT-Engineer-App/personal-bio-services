@@ -17,7 +17,7 @@ const Index = () => {
             Services
           </Heading>
           <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
-            <ServiceBox icon={FaCode} title="Web Development" description="Building responsive and dynamic websites and applications." />
+            <ServiceBox icon={FaCode} title="Housekeeping" description="Professional housekeeping services for homes and offices." />
             <ServiceBox icon={FaPaintBrush} title="Graphic Design" description="Creating visually appealing designs for various digital and print media." />
             <ServiceBox icon={FaCameraRetro} title="Photography" description="Professional photography services for events, products, and portraits." />
           </SimpleGrid>
